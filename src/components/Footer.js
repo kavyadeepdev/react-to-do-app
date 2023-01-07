@@ -5,16 +5,28 @@ const Footer = () => {
     <footer className="flex justify-around items-center h-1/6 bg-black text-white">
       <div className="left">
         <h3>External Links:</h3>
-        <a href="https://twitter.com/kavyadeepdev" className="block">
+        <a
+          href="https://twitter.com/kavyadeepdev"
+          className="block"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Twitter
         </a>
         <a
           href="https://github.com/kavyadeepdev/react-to-do-app"
           className="block"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           GitHub
         </a>
-        <a href="https://kavyadeep.dev" className="block">
+        <a
+          href="https://kavyadeep.dev"
+          className="block"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Website
         </a>
       </div>
